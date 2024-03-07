@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/view_profile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/Agriculture_office"
+            android:icon="@drawable/tea"
+            android:title="Agriculture Office" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/notification_bell"
+            android:title="Notification" />
+        <item
+            android:id="@+id/complaint"
+            android:icon="@drawable/complaint"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/view_cart"
+            android:icon="@drawable/cart"
+            android:title="Cart" />
+        <item
+            android:id="@+id/orders"
+            android:icon="@drawable/shopping_bag"
+            android:title="My Order" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/shutdown"
+            android:title="Logout" />
+    </group>
+</menu>
